@@ -2,9 +2,30 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*Dashboard*/
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.table {
+  border: 2px solid black;
+}
+
+/*Item Form*/
+.item-form {
+  border: 2px solid black;
+  width: fit-content;
+}
+
+.form-field {
+  display: flex;
+}
+
+.submit-input, .delete {
+  width: fit-content;
 }
 
 @media (prefers-reduced-motion: no-preference) {
